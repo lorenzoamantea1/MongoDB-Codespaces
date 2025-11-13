@@ -1,0 +1,24 @@
+{
+  "name": "mongodb-codespaces",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenzoamantea1/MongoDB-Codespaces.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorenzoamantea1/MongoDB-Codespaces/issues"
+  },
+  "homepage": "https://github.com/lorenzoamantea1/MongoDB-Codespaces#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.3"
+  }
+}
