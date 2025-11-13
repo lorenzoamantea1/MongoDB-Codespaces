@@ -1,4 +1,4 @@
-# 1. Crea il devcontainer (se non già fatto)
+# 1. Crea il devcontainer
 
 1. Premi **CTRL+SHIFT+B** → **"Codespaces: Add Dev Container Configuration Files..."**
 2. → **"Create a new configuration"**
