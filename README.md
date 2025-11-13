@@ -9,19 +9,23 @@
 > Attendi il completamento (può richiedere 1-2 minuti).
 
 #3. Verifica Node.js
-bash```
+```
 node -v
 # Output atteso: v20.x.x (o simile, dipende dall'immagine)
 ```
-bash```
+
+```
 npm -v
-# Output atteso: 10.x.x```
+# Output atteso: 10.x.x
+```
 
 #4. Inizializza il progetto e installa dipendenze
-bash```
+```
 # Crea package.json
-npm init -y```
-bash```
+npm init -y
+```
+
+```
 # Installa Express e Mongoose
 npm install express mongoose
 ```
