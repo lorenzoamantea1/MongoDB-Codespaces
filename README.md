@@ -1,12 +1,27 @@
-# Imposta devcontainer
-Crea codespace
-CTRL+SHIFT+b  -->  >Codespaces: Add Dev Container Configuration File  -->  Create a new configuration
-Seleziona Node.JS + MongoDB 
-CTRL+SHIFT+b -->  >Codespaces:Rebuild Container
+# 1. Crea il devcontainer (se non già fatto)
+# Premi CTRL+SHIFT+B → "Codespaces: Add Dev Container Configuration Files..."
+# → "Create a new configuration" → Seleziona "Node.js & MongoDB"
+> Verrà generata la cartella .devcontainer/ con devcontainer.json e Dockerfile.
 
-# Verifica installazione di node.js
-node -v 
+# 2. Ricostruisci il container
+# Ricostruisci per applicare la configurazione
+# CTRL+SHIFT+B → "Codespaces: Rebuild Container"
+> Attendi il completamento (può richiedere 1-2 minuti).
 
-# Inizializa npm e installa i moduli 
-npm init
-npm i mongoose express
+#3. Verifica Node.js
+bash```
+node -v
+# Output atteso: v20.x.x (o simile, dipende dall'immagine)
+```
+bash```
+npm -v
+# Output atteso: 10.x.x```
+
+#4. Inizializza il progetto e installa dipendenze
+bash```
+# Crea package.json
+npm init -y```
+bash```
+# Installa Express e Mongoose
+npm install express mongoose
+```
