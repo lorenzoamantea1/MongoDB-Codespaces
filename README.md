@@ -1,7 +1,6 @@
-<div style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/59476c71-b5d8-47c8-a66e-3fc88c4bf9f4" alt="image" width="300" height="auto" />
-</div>
-MongoDB + NodeJS
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/59476c71-b5d8-47c8-a66e-3fc88c4bf9f4" alt="image" width="380" />
+</p>
 
 # 1. Crea il devcontainer
 
