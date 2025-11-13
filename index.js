@@ -1,18 +1,19 @@
 import mongoose from "mongoose"
-import app from "./app.js"
+import express from "express"
 
-( async () => {
-    try {
-        await mongoose.connect("mongodb://localhost:27017/gitsetup");
-        console.log("MongoDB Connected");
+const app = express();
+const PORT = process.env.PORT || 5000;
 
-        const onListening = () => {
-            console.log("Listening on port :5000");
-        }
+mongoose.connect('mongodb://localhost:27017/mydb')
+  .then(() => console.log('MongoDB connesso'))
+  .catch(err => console.error('Errore MongoDB:', err));
 
-        app.listen(5000, onListening);
-    } catch (error) {
-        console.log("error:",error);
-        throw error;
-    }
-})()
+app.use(express.json());
+
+app.get('/', (req, res) => {
+  res.send('Express + MongoDB!');
+});
+
+app.listen(PORT, () => {
+  console.log(`Server in ascolto su porta ${PORT}`);
+});
