@@ -10,6 +10,3 @@ node -v
 # Inizializa npm e installa i moduli 
 npm init
 npm i mongoose express
-
-# Verifica installazione di express
-express -v
