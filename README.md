@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="630" height="289" alt="image" src="https://github.com/user-attachments/assets/39308692-02e2-4b06-85bc-a5a0718c0ad3" />
+  <img width="660" height="319" alt="image" src="https://github.com/user-attachments/assets/39308692-02e2-4b06-85bc-a5a0718c0ad3" />
 </p>
 
 # 1. Crea il devcontainer
