@@ -2,13 +2,15 @@
   <img width="1200" height="285" alt="513866386-39308692-02e2-4b06-85bc-a5a0718c0ad3" src="https://github.com/user-attachments/assets/142594bf-d8f5-4bb4-9262-f3d43b379a01" />
 </p>
 
-## Crea il Dev Container
+## 1. Crea il Dev Container
 
 1. Premi **`Ctrl+Shift+B`** → **"Codespaces: Add Dev Container Configuration Files..."**  
 2. Seleziona → **"Create a new configuration"**  
 3. Scegli → **`Node.js & MongoDB`**
 
-> Verrà generata la cartella `.devcontainer/` con `devcontainer.json` e `Dockerfile`.
+> Verranno generate automaticamente:  
+> - `.devcontainer/devcontainer.json`  
+> - `.devcontainer/Dockerfile`
 
 ---
 
