@@ -4,7 +4,7 @@
 
 ## 1. Crea il Dev Container
 
-1. Premi **`Ctrl+Shift+B`** → **"Codespaces: Add Dev Container Configuration Files..."**  
+1. Premi **`Ctrl+Shift+B`** → **`"Codespaces: Add Dev Container Configuration Files..."`**  
 2. Seleziona → **"Create a new configuration"**  
 3. Scegli → **`Node.js & MongoDB`**
 
@@ -17,7 +17,7 @@
 ## Ricostruisci il container
 
 - Ricostruisci per applicare la configurazione
-- **CTRL+SHIFT+B** → **"Codespaces: Rebuild Container"**
+- **`CTRL+SHIFT+B`** → **`"Codespaces: Rebuild Container"`**
 
 > Attendi il completamento (può richiedere 1-2 minuti).
 
