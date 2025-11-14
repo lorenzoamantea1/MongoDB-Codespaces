@@ -1,8 +1,6 @@
-<p align="center">
-  <img width="720" height="320" alt="image" src="https://github.com/user-attachments/assets/39308692-02e2-4b06-85bc-a5a0718c0ad3" />
-</p>
-
+<img width="1200" height="285" alt="513866386-39308692-02e2-4b06-85bc-a5a0718c0ad3" src="https://github.com/user-attachments/assets/142594bf-d8f5-4bb4-9262-f3d43b379a01" />
 ## 1. Crea il devcontainer
+er
 
 1. Premi **CTRL+SHIFT+B** → **"Codespaces: Add Dev Container Configuration Files..."**
 2. → **"Create a new configuration"**
