@@ -2,7 +2,7 @@
   <img width="1200" height="285" alt="513866386-39308692-02e2-4b06-85bc-a5a0718c0ad3" src="https://github.com/user-attachments/assets/142594bf-d8f5-4bb4-9262-f3d43b379a01" />
 </p>
 
-## 1. Crea il devcontainer
+## [1]> Crea il devcontainer
 
 1. Premi **CTRL+SHIFT+B** → **"Codespaces: Add Dev Container Configuration Files..."**
 2. → **"Create a new configuration"**
@@ -12,7 +12,7 @@
 
 ---
 
-## 2. Ricostruisci il container
+## [2]> Ricostruisci il container
 
 - Ricostruisci per applicare la configurazione
 - **CTRL+SHIFT+B** → **"Codespaces: Rebuild Container"**
@@ -21,7 +21,7 @@
 
 ---
 
-## 3. Verifica Node.js
+## [3]> Verifica Node.js
 
 ```bash
 node -v
@@ -33,7 +33,7 @@ npm -v
 
 ---
 
-## 4. Inizializza il progetto e installa dipendenze
+## [4]> Inizializza il progetto e installa dipendenze
 
 ```bash
 # Crea package.json
