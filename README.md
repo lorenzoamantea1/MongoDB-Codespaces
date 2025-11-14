@@ -3,7 +3,6 @@
 </p>
 
 ## 1. Crea il devcontainer
-er
 
 1. Premi **CTRL+SHIFT+B** → **"Codespaces: Add Dev Container Configuration Files..."**
 2. → **"Create a new configuration"**
