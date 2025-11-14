@@ -12,4 +12,4 @@ app.get('/', (req, res) => {
   res.send("MongoDB & Express on Codespace!");
 });
 
-app.listen(PORT, () => {console.log(`Server in ascolto su porta :${PORT}`);});
+app.listen(PORT, () => {console.log(`Server in ascolto su localhost:${PORT}`);});
