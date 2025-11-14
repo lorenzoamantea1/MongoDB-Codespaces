@@ -8,8 +8,9 @@
 2. → **"Create a new configuration"**
 3. → Seleziona **"Node.js & MongoDB"**
 
-> Verrà generata la cartella `.devcontainer/` con `devcontainer.json` e `Dockerfile`.
-
+>Verranno generate automaticamente:
+> - .devcontainer/devcontainer.json
+> - .devcontainer/Dockerfile
 ---
 
 ## Ricostruisci il container
