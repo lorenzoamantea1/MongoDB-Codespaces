@@ -26,7 +26,8 @@
 ```bash
 node -v
 # Output atteso: v20.x.x (o simile, dipende dall'immagine)
-
+```
+```bash
 npm -v
 # Output atteso: 10.x.x
 ```
