@@ -9,8 +9,8 @@
 3. → Seleziona **"Node.js & MongoDB"**
 
 >Verranno generate automaticamente:
-> -.devcontainer/devcontainer.json
-> -.devcontainer/Dockerfile
+> - .devcontainer/devcontainer.json
+> - .devcontainer/Dockerfile
 ---
 
 ## Ricostruisci il container
